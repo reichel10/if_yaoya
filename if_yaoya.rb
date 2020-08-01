@@ -28,7 +28,7 @@ quantity_of_products = 0
 
 loop do
   quantity_of_products = gets.to_i
-  break if 1 > products_selected_num
+  break if 1 <= quantity_of_products
   puts "1以上の数字を入力してください"
   puts "個数を入力 >"
 end
